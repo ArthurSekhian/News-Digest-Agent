@@ -46,6 +46,22 @@ For example:
 
 Each extractor returns structured items. The sender script then combines them into a clean digest and sends it to Telegram or Slack.
 
+## Example case study
+
+This template was inspired by a real digest agent built for fintech and AML monitoring.
+
+The same architecture can be adapted to any topic by replacing the example extractor with your own source-specific extractors.
+
+## How to adapt it
+
+1. Choose a topic you want to monitor.
+2. Create one extractor for each source.
+3. Make each extractor return structured items.
+4. Add your extractors to `sender/send_digest.py`.
+5. Run the sender locally.
+6. Connect Telegram or Slack delivery.
+7. Schedule it with cron, OpenClaw, GitHub Actions, or another scheduler.
+
 ## Documentation
 
 - [Quick Start](docs/quick-start.md)

@@ -13,6 +13,14 @@ This project helps you build a digest bot that:
 - sends it to Telegram or Slack
 - runs on a schedule
 
+## Why this exists
+
+LLM browsing can be unreliable for production digests.
+
+This project uses source-specific extractors first, then formats and delivers the digest.
+
+That makes the workflow easier to test, debug, and adapt to any topic.
+
 ## Use cases
 
 - industry news digests

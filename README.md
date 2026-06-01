@@ -37,3 +37,9 @@ For example:
 - `custom_topic_extract.py`
 
 Each extractor returns structured items. The sender script then combines them into a clean digest and sends it to Telegram or Slack.
+
+## Documentation
+
+- [Quick Start](docs/quick-start.md)
+- [Adding a Source](docs/adding-a-source.md)
+- [Architecture](docs/architecture.md)
